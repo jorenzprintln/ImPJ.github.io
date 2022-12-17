@@ -1,0 +1,190 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+    </head>
+    <link rel="stylesheet" href="syle.css">
+    <script src="https://kit.fontawesome.com/f90075622e.js" crossorigin="anonymous"></script>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/log0.jfif" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>First Year BSIT Student</p>
+                    <h1>Hi, I'm <span>Jorenz</span><br> Pablo From Philippines</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                     <img src="images/luffy.jpg">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="subt">About Me</h1>
+                        <p>My name is Paul Jorenz Cañada Pablo, I'm 18 year's old. I was born in October 25, 2004,
+                             I live in Brgy. Pagsulhugon Babatngon, Leyte. I am  a First year BSIT student at Leyte Normal University.</p>
+                             <div class="tab-titles">
+                                <p class="tab-links act-link" onclick="opentab('contacts')">Contacts</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                             </div>
+                             <div class="tab-contents act-tab" id="contacts">
+                                <ul>
+                                    <li><span>Phone Number</span><br>09518290505 </li>
+                                    <li><span>E-mail Address</span><br>jorenzlnu@gmail.com</li>
+                                    <li><span>Facebook</span><br>Paul Jorenz Pablo</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022 - Current</span><br>First Year BSIT at Leyte Normal University</li>
+                                    <li><span>2021 - 2022</span><br>Graduated Senior High School at Pagsulhugon NHS</li>
+                                    <li><span>2019 - 2020</span><br>Graduated Junior High School at Burauen NHS</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="skills">
+                                <ul>
+                                    <li><span>Java</span><br>Can create simple CRUD System</li>
+                                    <li><span>Web Development</span><br>Simple Web Page</li>
+                                </ul>
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div id="hobbies">
+    <div class="container">
+        <h1 class="subt">Hobbies</h1>
+        <div class="hobbies-list">
+            <div>
+                <i class="fa-solid fa-headset"></i>
+                <h2>Gaming</h2>
+                <p>Gaming is one of my hobbies because I enjoy it and it makes me happy.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-tv"></i>
+                <h2>Watching Anime</h2>
+                <p>Watching Anime is one of my hobbies because I enjoy it and it makes me happy.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-basketball"></i>
+                <h2>Playing Basketball</h2>
+                <p>Playing Basketball is one of my hobbies because I enjoy it and it makes me happy.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="resume">
+    <div class="container">
+        <h1 class="subt">My Resume</h1>
+        <div class="resume-list">
+            <div class="edu">
+                <img src="images/edu.jpg">
+                <div class="layer">
+                    <h3>Educational Background</h3>
+                    <p>2022 - Current <br>First Year BSIT student at Leyte Normal University <br>2021 - 2022 <br> Graduated Senior High School
+                    at Pagsulhugon NHS <br>2019 - 2020 <br>Graduated Junior High School at Burauen NHS</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="edu">
+                <img src="images/achievement.jpg">
+                <div class="layer">
+                    <h3>Achivements</h3>
+                    <p>This is one of my Achievement in Senior High School.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="edu">
+                <img src="images/achievement1.jpg">
+                <div class="layer">
+                    <h3>Achivements</h3>
+                    <p>This is one of my Achievement in Senior High School.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="but">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-l">
+                <h1 class="sub-t">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> jorenzlnu@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +63 951-8290-505</p>
+                <div class="social-i">
+                    <a href="https://www.facebook.com/jorenz.pablo004"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/JorenzPablo"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/jorenzpablo/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://telegram.org/dl"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+           
+            <div class="contact-r">
+                <form>
+                    <input type="text" name = "Name" placeholder="Enter Your Name" required>
+                    <input type="email" name = "email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="but but1">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("act-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("act-tab");
+                }
+                event.currentTarget.classList.add("act-link");
+                document.getElementById(tabname).classList.add("act-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
